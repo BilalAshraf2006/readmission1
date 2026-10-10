@@ -88,17 +88,7 @@ the metric and bootstrap code.
   therefore excluded in both cohorts (diabetes-130: primary diagnosis V57/V58), following
   the CMS "always planned" categories. The outcome definition is unchanged. The
   un-amended cohort and an unplanned-only outcome are reported as sensitivity analyses.
-* **No leakage**: an 80/20 split grouped by patient (StratifiedGroupKFold), with
-  hyper-parameters tuned by grouped 5-fold CV inside the training split. All
-  pre-processing sits inside sklearn Pipelines, so it is re-fitted per fold. Bootstrap
-  CIs resample patients, not encounters.
-* **Shared features** (identical definitions in both cohorts): age (10-year band
-  midpoint), sex, length of stay, prior-year inpatient / emergency / outpatient visits,
-  number of diagnoses (capped at 9, the diabetes-130 recording limit), number of
-  medications, and 18 comorbidity flags (ICD-9 3-digit categories ↔ SNOMED-CT concepts;
-  see `results/comorbidity_mapping.csv` and the audit trail
-  `results/synthea_snomed_flag_audit.csv`). **Race and insurance are never model
-  inputs.** They are used only for the fairness audit.
+
 * **Missing values**: `?` means missing. The literal `"None"` in `A1Cresult` /
   `max_glu_serum` means "not measured" and is kept as a category. `weight` (97% missing)
   is dropped. `payer_code` (40% missing) is not a feature but becomes the insurance
