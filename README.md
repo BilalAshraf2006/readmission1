@@ -1,4 +1,4 @@
-# 30-day readmission after diabetic hospital stays: a generalization and fairness study
+# 30-day readmission after diabetic hospital stays: a generalisation and fairness study
 
 A leakage-free, mortality-excluded 30-day readmission model trained on the real
 **UCI Diabetes 130-US Hospitals** data (1999–2008) and evaluated for
