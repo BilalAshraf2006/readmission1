@@ -106,7 +106,3 @@ the metric and bootstrap code.
   has no Synthea analogue, so it appears (with a "Missing" level) only in the internal
   full-feature sensitivity model. Missing race is "Unknown". A missing diagnosis code
   sets no comorbidity flag.
-* **Models**: L2 logistic regression and `HistGradientBoostingClassifier`, with no
-  resampling or class weights (this preserves calibration). The decision threshold
-  maximizes Youden's J on training out-of-fold predictions and is reused unchanged on
-  every test set.
