@@ -1,0 +1,78 @@
+{
+  "primary": {
+    "features": [
+      "age_years",
+      "los_days",
+      "n_inpatient_prior",
+      "n_emergency_prior",
+      "n_outpatient_prior",
+      "n_diagnoses",
+      "n_medications",
+      "female",
+      "cm_heart_failure",
+      "cm_ischemic_heart",
+      "cm_hypertension",
+      "cm_dysrhythmia",
+      "cm_valvular",
+      "cm_cerebrovascular",
+      "cm_chronic_lung",
+      "cm_renal",
+      "cm_dm_complications",
+      "cm_cancer",
+      "cm_obesity",
+      "cm_anemia",
+      "cm_mood_disorder",
+      "cm_dementia",
+      "cm_substance_use",
+      "cm_hyperlipidemia",
+      "cm_osteoarthritis",
+      "cm_sepsis_pneumonia"
+    ],
+    "auroc": 0.9999887772645535,
+    "per_feature_auroc": {
+      "age_years": 0.5358772472939013,
+      "los_days": 0.6493966671617702,
+      "n_inpatient_prior": 0.5908548386944847,
+      "n_emergency_prior": 0.5611792261366806,
+      "n_outpatient_prior": 0.9874673174524176,
+      "n_diagnoses": 0.7016655074893872,
+      "n_medications": 0.7709071996747929,
+      "female": 0.5235329552481182,
+      "cm_heart_failure": 0.5104141049377829,
+      "cm_ischemic_heart": 0.832116161705508,
+      "cm_hypertension": 0.7124613676929299,
+      "cm_dysrhythmia": 0.5415353729201762,
+      "cm_valvular": 0.5505672958895395,
+      "cm_cerebrovascular": 0.5260514835359471,
+      "cm_chronic_lung": 0.5349726904620142,
+      "cm_renal": 0.6236158421978749,
+      "cm_dm_complications": 0.7529949251816132,
+      "cm_cancer": 0.5810233272766047,
+      "cm_obesity": 0.8895211309430835,
+      "cm_anemia": 0.8763370700558437,
+      "cm_mood_disorder": 0.5052361883546497,
+      "cm_dementia": 0.5334805892354826,
+      "cm_substance_use": 0.5420885337760336,
+      "cm_hyperlipidemia": 0.9749702402346685,
+      "cm_osteoarthritis": 0.5773405797042542,
+      "cm_sepsis_pneumonia": 0.5167122289080349
+    }
+  },
+  "core": {
+    "features": [
+      "age_years",
+      "los_days",
+      "n_inpatient_prior",
+      "n_emergency_prior",
+      "female"
+    ],
+    "auroc": 0.7589111825942477,
+    "per_feature_auroc": {
+      "age_years": 0.5358772472939013,
+      "los_days": 0.6493966671617702,
+      "n_inpatient_prior": 0.5908548386944847,
+      "n_emergency_prior": 0.5611792261366806,
+      "female": 0.5235329552481182
+    }
+  }
+}

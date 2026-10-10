@@ -1,0 +1,19 @@
+flag,label,icd9_diabetes130,snomed_codes_synthea,snomed_description_regex
+cm_heart_failure,Heart failure,428,"42343007, 703272007, 84114007, 85232009, 88805009",
+cm_ischemic_heart,Ischemic heart disease / MI,410-414,"194828000, 22298006, 399211009, 399261000, 401303003, 401314000, 414545008, 4557003, 53741008",
+cm_hypertension,Hypertension,401-405,"1201005, 38341003, 59621000",
+cm_dysrhythmia,Cardiac dysrhythmia (incl. atrial fibrillation),427,"49436004, 5370000, 698247007",
+cm_valvular,Valvular heart disease,"394-397, 424","111287006, 1231000119100, 48724000, 60234000, 60573004, 79619009",
+cm_cerebrovascular,Cerebrovascular disease,430-438,"230690007, 274100004, 422504002",
+cm_chronic_lung,Chronic lung disease (COPD/asthma),490-496,"13645005, 185086009, 195967001, 233678006, 87433001",
+cm_renal,Chronic kidney disease,"403-404, 581-583, 585-586, 588, 250.4.x, V56","127013003, 157141000119108, 161665007, 213150003, 431855005, 431856006, 431857002, 433144002, 46177005, 698306007, 709044004, 90781000119102",
+cm_dm_complications,Diabetes with complications,"250.1.x, 250.2.x, 250.3.x, 250.4.x, 250.5.x, 250.6.x, 250.7.x, 250.8.x, 250.9.x","127013003, 1501000119109, 1551000119108, 157141000119108, 368581000119106, 60951000119105, 90781000119102, 97331000119101",due to (type 2 )?diabetes|diabetic
+cm_cancer,Malignancy,"140-208, 230-234","126906006, 92691004",malignant|carcinoma|cancer|leukemia|myeloma|lymphoma|sarcoma|melanoma
+cm_obesity,Obesity,278,"162864005, 408512008",
+cm_anemia,Anemia,280-285,271737000,
+cm_mood_disorder,Depression / mood disorder,"296, 311","36923009, 370143000",
+cm_dementia,Dementia / Alzheimer's,"290, 294, 331","230265002, 26929004",
+cm_substance_use,Alcohol / drug dependence,"291-292, 303-304","6525002, 7200002",
+cm_hyperlipidemia,Hyperlipidemia,272,"302870006, 55822004",
+cm_osteoarthritis,Osteoarthritis,715,"201834006, 239872002, 239873007, 396275006",
+cm_sepsis_pneumonia,Septicemia / pneumonia,"038, 480-486","10625071000119104, 233604007, 448813005, 76571007, 91302008",

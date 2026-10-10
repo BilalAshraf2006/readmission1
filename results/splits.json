@@ -1,0 +1,20 @@
+{
+  "d130": {
+    "train_rows": 78331,
+    "test_rows": 19583,
+    "train_patients": 55499,
+    "test_patients": 13849,
+    "train_prev": 0.11293102347729507,
+    "test_prev": 0.11290404943062861,
+    "patient_overlap": 0
+  },
+  "synthea": {
+    "train_rows": 5065,
+    "test_rows": 1267,
+    "train_patients": 3925,
+    "test_patients": 978,
+    "train_prev": 0.05488647581441264,
+    "test_prev": 0.055248618784530384,
+    "patient_overlap": 0
+  }
+}

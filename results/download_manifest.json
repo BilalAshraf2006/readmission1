@@ -1,0 +1,29 @@
+{
+  "diabetes130": {
+    "attempts": [
+      {
+        "url": "https://archive.ics.uci.edu/static/public/296/diabetes+130-us+hospitals+for+years+1999-2008.zip",
+        "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+      }
+    ],
+    "source": "https://raw.githubusercontent.com/rischanlab/Cleaning_diabetes_130_US_hospital_dataset/HEAD/diabetic_data.csv",
+    "sha256": "0689e7ec031237dc63031b938805c48377748761a3b26acab621567afa24df97",
+    "sha256_matches_verified_copy": true,
+    "mapping_sha256": "f1bb82b471cb34649352597572c9b1fb00bd27f77b9f5a22a03dc3eb1039749e",
+    "invariants": {
+      "n_rows": 101766,
+      "n_cols": 50,
+      "n_patients": 71518,
+      "readmitted": {
+        "NO": 54864,
+        ">30": 35545,
+        "<30": 11357
+      }
+    }
+  },
+  "synthea_jar": {
+    "url": "https://github.com/synthetichealth/synthea/releases/download/master-branch-latest/synthea-with-dependencies.jar",
+    "sha256": "018ad7f04f7aacb995804d7d4781c76d5fc714f7f23257ba50daa9eefae224ac",
+    "matches_study_build": true
+  }
+}

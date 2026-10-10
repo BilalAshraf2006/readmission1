@@ -1,0 +1,76 @@
+[
+  {
+    "step": "Synthea patients (all with type-2 diabetes by end of simulation)",
+    "patients": 30491
+  },
+  {
+    "step": "Inpatient encounters -> merged inpatient stays",
+    "inpatient_encounters": 80012,
+    "stays": 75324,
+    "patients": 20866
+  },
+  {
+    "step": "Excluded: admitted before 1999-01-01 (incomplete 365-day look-back)",
+    "excluded": 52484,
+    "stays": 22840,
+    "patients": 8705
+  },
+  {
+    "step": "Excluded: discharged within 30 days of the end of simulation (incomplete follow-up)",
+    "excluded": 164,
+    "stays": 22676,
+    "patients": 8649
+  },
+  {
+    "step": "Excluded: type-2 diabetes not yet diagnosed at discharge (not a diabetic encounter)",
+    "excluded": 1642,
+    "stays": 21034,
+    "patients": 7972
+  },
+  {
+    "step": "Excluded: length of stay > 14 days",
+    "excluded": 1056,
+    "stays": 19978,
+    "patients": 7769
+  },
+  {
+    "step": "Excluded: no medication during the stay",
+    "excluded": 239,
+    "stays": 19739,
+    "patients": 7612
+  },
+  {
+    "step": "Excluded: died during the stay or discharged to hospice",
+    "excluded": 475,
+    "excluded_died": 473,
+    "excluded_hospice_only": 2,
+    "excluded_readmit_30d": 0,
+    "stays": 19264,
+    "patients": 7403
+  },
+  {
+    "step": "Excluded: planned-care admission (chemotherapy, rehabilitation/detox, transplant; Amendment 1)",
+    "excluded": 12932,
+    "excluded_chemotherapy": 8634,
+    "excluded_rehab_or_transplant_only": 4298,
+    "excluded_readmit_30d": 2757,
+    "stays": 6332,
+    "patients": 4903
+  },
+  {
+    "step": "Analysis cohort",
+    "stays": 6332,
+    "patients": 4903,
+    "readmit_30d": 348,
+    "prevalence": 0.055,
+    "readmit_30d_unplanned_outcome": 294,
+    "died_within_30d_after_discharge_without_readmission": 145,
+    "stays_per_patient_max": 8,
+    "incl_planned_cohort": {
+      "stays": 19264,
+      "patients": 7403,
+      "readmit_30d": 3105,
+      "prevalence": 0.1612
+    }
+  }
+]

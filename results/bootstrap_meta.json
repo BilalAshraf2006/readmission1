@@ -1,0 +1,44 @@
+{
+  "d130_test": {
+    "rows": 19583,
+    "patients": 13849,
+    "events": 2211,
+    "replicates": 1000
+  },
+  "synthea_all": {
+    "rows": 6332,
+    "patients": 4903,
+    "events": 348,
+    "replicates": 1000
+  },
+  "synthea_test": {
+    "rows": 1267,
+    "patients": 978,
+    "events": 70,
+    "replicates": 1000
+  },
+  "synthea_incl_planned": {
+    "rows": 19264,
+    "patients": 7403,
+    "events": 3105,
+    "replicates": 1000
+  },
+  "synthea_all_unplanned_outcome": {
+    "rows": 6332,
+    "patients": 4903,
+    "events": 294,
+    "replicates": 1000
+  },
+  "synthea_all_excl_deaths": {
+    "rows": 6187,
+    "patients": 4814,
+    "events": 348,
+    "replicates": 1000
+  },
+  "synthea_half_B": {
+    "rows": 3166,
+    "patients": 2448,
+    "events": 174,
+    "replicates": 1000
+  }
+}

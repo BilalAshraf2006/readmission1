@@ -1,0 +1,49 @@
+[
+  {
+    "step": "All encounters in diabetic_data.csv",
+    "encounters": 101766,
+    "patients": 71518,
+    "readmit_30d": 11357
+  },
+  {
+    "step": "Excluded: died or discharged to hospice (discharge_disposition_id 11,13,14,19,20,21)",
+    "excluded": 2423,
+    "excluded_by_code": {
+      "11": 1642,
+      "13": 399,
+      "14": 372,
+      "19": 8,
+      "20": 2
+    },
+    "excluded_readmit_30d": 43,
+    "encounters": 99343,
+    "patients": 69990
+  },
+  {
+    "step": "Excluded: gender 'Unknown/Invalid'",
+    "excluded": 3,
+    "encounters": 99340,
+    "patients": 69987,
+    "readmit_30d": 11314
+  },
+  {
+    "step": "Excluded: planned-care admission (primary diagnosis V57 rehabilitation or V58 chemotherapy/aftercare)",
+    "excluded": 1426,
+    "excluded_by_code": {
+      "V57": 1200,
+      "V58": 226
+    },
+    "excluded_readmit_30d": 257,
+    "encounters": 97914,
+    "patients": 69348,
+    "readmit_30d": 11057
+  },
+  {
+    "step": "Analysis cohort",
+    "encounters": 97914,
+    "patients": 69348,
+    "readmit_30d": 11057,
+    "prevalence": 0.1129,
+    "encounters_per_patient_max": 40
+  }
+]

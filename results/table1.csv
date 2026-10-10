@@ -1,0 +1,46 @@
+variable,d130,synthea,smd
+Encounters / stays,"97,914","6,332",
+Patients,"69,348","4,903",
+"30-day readmission, %",11.3,5.5,-0.21
+"Age (band midpoint), years, mean (SD)",65.69 (15.98),67.82 (14.59),0.139
+"Length of stay, days, mean (SD)",4.33 (2.93),3.16 (2.77),-0.409
+"Inpatient stays, prior year, mean (SD)",0.62 (1.26),0.22 (0.72),-0.395
+"Emergency visits, prior year, mean (SD)",0.20 (0.94),0.56 (2.11),0.218
+"Outpatient visits, prior year, mean (SD)",0.37 (1.27),13.89 (19.16),0.996
+"Number of diagnoses (capped at 9), mean (SD)",7.39 (1.93),8.70 (0.89),0.871
+"Number of medications, mean (SD)",15.99 (8.13),9.18 (4.69),-1.026
+"Female, %",53.8,49.1,-0.094
+"Heart failure, %",17.2,19.2,0.054
+"Ischemic heart disease / MI, %",16.5,82.9,1.777
+"Hypertension, %",19.8,62.3,0.958
+"Cardiac dysrhythmia (incl. atrial fibrillation), %",10.8,2.5,-0.338
+"Valvular heart disease, %",2.8,12.9,0.382
+"Cerebrovascular disease, %",5.3,0.0,-0.329
+"Chronic lung disease (COPD/asthma), %",13.5,6.5,-0.235
+"Chronic kidney disease, %",9.8,34.5,0.624
+"Diabetes with complications, %",13.0,63.6,1.219
+"Malignancy, %",4.6,20.8,0.501
+"Obesity, %",1.3,79.2,2.613
+"Anemia, %",5.0,80.2,2.346
+"Depression / mood disorder, %",1.6,0.6,-0.099
+"Dementia / Alzheimer's, %",1.1,7.8,0.33
+"Alcohol / drug dependence, %",1.2,9.6,0.378
+"Hyperlipidemia, %",2.4,97.4,6.081
+"Osteoarthritis, %",2.4,17.9,0.529
+"Septicemia / pneumonia, %",7.7,4.4,-0.14
+"age_band: <50, %",16.1,13.3,-0.079
+"age_band: 50-59, %",17.2,15.2,-0.054
+"age_band: 60-69, %",22.2,20.9,-0.031
+"age_band: 70-79, %",25.4,28.0,0.06
+"age_band: 80+, %",19.1,22.5,0.084
+"race: Caucasian, %",74.6,60.6,-0.303
+"race: AfricanAmerican, %",19.0,11.6,-0.208
+"race: Hispanic, %",2.0,19.3,0.583
+"race: Asian, %",0.6,5.8,0.297
+"race: Other, %",1.5,2.7,0.085
+"race: Unknown, %",2.2,0.0,-0.214
+"insurance: Medicare, %",31.6,71.3,0.867
+"insurance: Medicaid, %",3.5,5.5,0.094
+"insurance: Private/Other, %",20.4,12.2,-0.226
+"insurance: Self-pay, %",5.0,11.0,0.223
+"insurance: Unknown, %",39.4,0.0,-1.141

@@ -1,0 +1,73 @@
+CODE,DESCRIPTION,flag,n_stays
+271737000,Anemia (disorder),cm_anemia,5081.0
+126906006,Neoplasm of prostate (disorder),cm_cancer,478.0
+92691004,Carcinoma in situ of prostate (disorder),cm_cancer,470.0
+254837009,Malignant neoplasm of breast (disorder),cm_cancer,417.0
+109838007,Overlapping malignant neoplasm of colon (disorder),cm_cancer,165.0
+363406005,Malignant neoplasm of colon (disorder),cm_cancer,146.0
+93143009,Leukemia  disease (disorder),cm_cancer,96.0
+254637007,Non-small cell lung cancer (disorder),cm_cancer,38.0
+424132000,Non-small cell carcinoma of lung  TNM stage 1 (disorder),cm_cancer,38.0
+109989006,Multiple myeloma (disorder),cm_cancer,38.0
+93761005,Primary malignant neoplasm of colon (disorder),cm_cancer,32.0
+94503003,Metastatic malignant neoplasm to prostate (disorder),cm_cancer,11.0
+254632001,Small cell carcinoma of lung (disorder),cm_cancer,6.0
+67811000119102,Primary small cell malignant neoplasm of lung  TNM stage 1 (disorder),cm_cancer,6.0
+94260004,Metastatic malignant neoplasm to colon (disorder),cm_cancer,2.0
+230690007,Cerebrovascular accident (disorder),cm_cerebrovascular,3.0
+195967001,Asthma (disorder),cm_chronic_lung,158.0
+87433001,Pulmonary emphysema (disorder),cm_chronic_lung,148.0
+185086009,Chronic obstructive bronchitis (disorder),cm_chronic_lung,117.0
+233678006,Childhood asthma (disorder),cm_chronic_lung,0.0
+26929004,Alzheimer's disease (disorder),cm_dementia,464.0
+230265002,Familial Alzheimer's disease of early onset (disorder),cm_dementia,29.0
+127013003,Disorder of kidney due to diabetes mellitus (disorder),cm_dm_complications,2185.0
+368581000119106,Neuropathy due to type 2 diabetes mellitus (disorder),cm_dm_complications,1961.0
+90781000119102,Microalbuminuria due to type 2 diabetes mellitus (disorder),cm_dm_complications,1805.0
+1551000119108,Nonproliferative diabetic retinopathy due to type II diabetes mellitus,cm_dm_complications,1662.0
+157141000119108,Proteinuria due to type 2 diabetes mellitus (disorder),cm_dm_complications,1186.0
+97331000119101,Macular edema and retinopathy due to type 2 diabetes mellitus (disorder),cm_dm_complications,185.0
+1501000119109,Proliferative diabetic retinopathy due to type II diabetes mellitus,cm_dm_complications,104.0
+60951000119105,Blindness due to type 2 diabetes mellitus (disorder),cm_dm_complications,34.0
+49436004,Atrial fibrillation (disorder),cm_dysrhythmia,158.0
+88805009,Chronic congestive heart failure (disorder),cm_heart_failure,1218.0
+302870006,Hypertriglyceridemia (disorder),cm_hyperlipidemia,6146.0
+55822004,Hyperlipidemia (disorder),cm_hyperlipidemia,1704.0
+59621000,Essential hypertension (disorder),cm_hypertension,3947.0
+414545008,Ischemic heart disease (disorder),cm_ischemic_heart,4706.0
+399261000,History of coronary artery bypass grafting (situation),cm_ischemic_heart,2825.0
+399211009,History of myocardial infarction (situation),cm_ischemic_heart,2287.0
+22298006,Myocardial infarction (disorder),cm_ischemic_heart,1383.0
+401314000,Acute non-ST segment elevation myocardial infarction (disorder),cm_ischemic_heart,1337.0
+401303003,Acute ST segment elevation myocardial infarction (disorder),cm_ischemic_heart,927.0
+4557003,Preinfarction syndrome (disorder),cm_ischemic_heart,112.0
+370143000,Major depressive disorder (disorder),cm_mood_disorder,38.0
+36923009,Major depression  single episode (disorder),cm_mood_disorder,0.0
+162864005,Body mass index 30+ - obesity (finding),cm_obesity,4986.0
+408512008,Body mass index 40+ - severely obese (finding),cm_obesity,60.0
+239873007,Osteoarthritis of knee (disorder),cm_osteoarthritis,646.0
+201834006,Localized  primary osteoarthritis of the hand (disorder),cm_osteoarthritis,268.0
+239872002,Osteoarthritis of hip (disorder),cm_osteoarthritis,220.0
+127013003,Disorder of kidney due to diabetes mellitus (disorder),cm_renal,2185.0
+90781000119102,Microalbuminuria due to type 2 diabetes mellitus (disorder),cm_renal,1805.0
+431855005,Chronic kidney disease stage 1 (disorder),cm_renal,1747.0
+431856006,Chronic kidney disease stage 2 (disorder),cm_renal,1395.0
+157141000119108,Proteinuria due to type 2 diabetes mellitus (disorder),cm_renal,1186.0
+433144002,Chronic kidney disease stage 3 (disorder),cm_renal,746.0
+161665007,History of renal transplant (situation),cm_renal,496.0
+698306007,Awaiting transplantation of kidney (situation),cm_renal,246.0
+431857002,Chronic kidney disease stage 4 (disorder),cm_renal,245.0
+46177005,End-stage renal disease (disorder),cm_renal,59.0
+213150003,Kidney transplant failure and rejection (disorder),cm_renal,0.0
+91302008,Sepsis (disorder),cm_sepsis_pneumonia,274.0
+76571007,Septic shock (disorder),cm_sepsis_pneumonia,40.0
+233604007,Pneumonia (disorder),cm_sepsis_pneumonia,8.0
+448813005,Sepsis caused by Pseudomonas (disorder),cm_sepsis_pneumonia,0.0
+6525002,Dependent drug abuse (disorder),cm_substance_use,489.0
+7200002,Alcoholism (disorder),cm_substance_use,131.0
+60573004,Aortic valve stenosis (disorder),cm_valvular,568.0
+1231000119100,History of aortic valve replacement (situation),cm_valvular,394.0
+60234000,Aortic valve regurgitation (disorder),cm_valvular,193.0
+48724000,Mitral valve regurgitation (disorder),cm_valvular,46.0
+79619009,Mitral valve stenosis (disorder),cm_valvular,9.0
+111287006,Tricuspid valve regurgitation (disorder),cm_valvular,4.0
