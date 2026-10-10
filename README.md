@@ -3,7 +3,7 @@
 A leakage-free, mortality-excluded 30-day readmission model trained on the real
 **UCI Diabetes 130-US Hospitals** data (1999–2008) and evaluated for
 
-1. **cross-population generalization**: trained on one population and tested on another
+1. **cross-population generalisation**: trained on one population and tested on another
    (an external **Synthea** cohort restricted to diabetic patients, plus the reverse
    direction and a within-Synthea reference);
 2. **subgroup discrimination, calibration and error rates** by race, sex, age band and
@@ -17,7 +17,7 @@ All numeric results are written by the code to `results/`, and all figures to `f
 | All numeric results | `results/*.csv`, `results/*.json` |
 | Harmonized external cohort (for re-analysis without re-running Synthea) | `data/external/synthea_cohort.csv.gz` |
 
-## Headline results
+##  results
 
 The numbers below are copied from `results/`.
 
@@ -51,9 +51,7 @@ python run_all.py --from train      # re-run the analysis from existing cohorts
 python -m pytest tests              # unit tests (metrics, ICD-9/SNOMED mapping, grouped split)
 ```
 
-Fitted models are cached in `models/` under a hash of their inputs, so re-running
-`train.py` with unchanged data reloads them. `python src/train.py --only-d130` fits only
-the diabetes-130 models (no Synthea data needed).
+
 
 Individual steps (run from `src/`):
 
